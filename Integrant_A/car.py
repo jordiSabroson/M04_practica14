@@ -1,10 +1,16 @@
 class car:
-    def __init__(self, model, portes, passatgers, quilometres, color):
+    def __init__(self, id, model, portes, passatgers, quilometres, color):
+        self.id = id
         self.model = model
         self.portes = portes
         self.passatgers = passatgers
         self.quilometres = quilometres
         self.color = color
+
+    def getId(self):
+        return self.id
+    def setId(self, id):
+        self.id = id
 
     def getModel(self):
         return self.model
@@ -32,11 +38,12 @@ class car:
         self.color = color
 
     def salutacio(self):
-        print("Model de cotxe: "+self.model+"\nNúmero de portes: "+self.portes+"\nNúmero de passatgers: "+self.passatgers
+        print("ID: "+self.id+"Model de cotxe: "+self.model+"\nNúmero de portes: "+self.portes+"\nNúmero de passatgers: "+self.passatgers
               +"\nNúmero de quilòmetres: "+self.quilometres+"\nColor del cotxe: "+self.color+"\n")
         
     def to_dict(self):
         return {
+            "id":self.id,
             "model":self.model,
             "portes":self.portes,
             "passatgers":self.passatgers,
