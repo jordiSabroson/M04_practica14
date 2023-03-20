@@ -3,6 +3,7 @@ from IntegranteB.cat import cat
 import json
 from Integrant_A.car import car
 from Integrant_A.book import book
+
 #crea una llita per cada classe creada con 5 instàncies
 cat = [
     cat("pepe", "negre", "10kg", "2 anys"),
@@ -32,18 +33,18 @@ with open("jsonAPI/b.json", 'w') as file:
 
 
 cotxes = [
-    car("Ford Tourneo","5","7","700.000","blanc"),
-    car("Crosta Car","3","9","100.000.000","marró"),
-    car("Citroen Berlingo","7","5","0","negre"),
-    car("Citroen Saxo","3","5","123","vermell"),
-    car("Jeep 2","6","5","40.362","oliva")
+    car("1", "Ford Tourneo","5","7","700.000","blanc"),
+    car("2", "Crosta Car","3","9","100.000.000","marró"),
+    car("3", "Citroen Berlingo","7","5","0","negre"),
+    car("4", "Citroen Saxo","3","5","123","vermell"),
+    car("5", "Jeep 2","6","5","40.362","oliva")
  ]
 llibres = [
-     book("Les tres besones","infantil","1999","La Tere","19","tova"),
-     book("Bricolaje para novatos","bricolatge","1966","Don José","5","de butxaca"),
-     book("Guía telefónica Valladolid","guia","1780","Ayuntamiento de Valladolid","gratis","gegant"),
-     book("Com sobreviure a un tsunami","supervivència","2012","John McJohn","60","dura"),
-     book("LA BIBLIA","respostes","0","déu beneit","gratis","dura")
+     book("1", "Les tres besones","infantil","1999","La Tere","19","tova"),
+     book("2", "Bricolaje para novatos","bricolatge","1966","Don José","5","de butxaca"),
+     book("3", "Guía telefónica Valladolid","guia","1780","Ayuntamiento de Valladolid","gratis","gegant"),
+     book("4", "Com sobreviure a un tsunami","supervivència","2012","John McJohn","60","dura"),
+     book("5", "LA BIBLIA","respostes","0","déu beneit","gratis","dura")
  ]
 
 #Convertir les instàncies de les persones a una llista de diccionaris JSON

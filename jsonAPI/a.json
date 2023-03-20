@@ -1,0 +1,91 @@
+{
+  "cotxes": [
+    {
+      "id": "1",
+      "model": "Ford Tourneo",
+      "portes": "5",
+      "passatgers": "7",
+      "quilometres": "700.000",
+      "color": "blanc"
+    },
+    {
+      "id": "2",
+      "model": "Crosta Car",
+      "portes": "3",
+      "passatgers": "9",
+      "quilometres": "100.000.000",
+      "color": "marró"
+    },
+    {
+      "id": "4",
+      "model": "Citroen Saxo",
+      "portes": "3",
+      "passatgers": "5",
+      "quilometres": "123",
+      "color": "vermell"
+    },
+    {
+      "id": "5",
+      "model": "Jeep 2",
+      "portes": "6",
+      "passatgers": "5",
+      "quilometres": "40.362",
+      "color": "oliva"
+    },
+    {
+      "id": "6",
+      "model": "Troncomovil",
+      "portes": "1",
+      "passatgers": "4",
+      "quilometres": "435",
+      "color": "fusta"
+    }
+  ],
+  "llibres": [
+    {
+      "id": "1",
+      "titol": "Les tres besones",
+      "categoria": "infantil",
+      "any": "1999",
+      "autor": "La Tere",
+      "preu": "19",
+      "tapa": "tova"
+    },
+    {
+      "id": "2",
+      "titol": "Bricolaje para novatos",
+      "categoria": "bricolatge",
+      "any": "1966",
+      "autor": "Don José",
+      "preu": "5",
+      "tapa": "de butxaca"
+    },
+    {
+      "id": "4",
+      "titol": "Com sobreviure a un tsunami",
+      "categoria": "supervivència",
+      "any": "2012",
+      "autor": "John McJohn",
+      "preu": "60",
+      "tapa": "dura"
+    },
+    {
+      "id": "5",
+      "titol": "LA BIBLIA",
+      "categoria": "respostes",
+      "any": "0",
+      "autor": "déu beneit",
+      "preu": "gratis",
+      "tapa": "dura"
+    },
+    {
+      "id": "6",
+      "titol": "Pachis point",
+      "categoria": "Acció",
+      "any": "1988",
+      "autor": "Tio Manel",
+      "preu": "6,99",
+      "tapa": "dura"
+    }
+  ]
+}
